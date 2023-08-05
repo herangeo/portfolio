@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+}
+.div1{
+    display:inline-flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    height:756px;
+    width: 400px;
+    text-align:center;
+    box-shadow: 0 4px 8px 0  rgba(55, 50, 50, 0.19), 0 6px 20px 0 rgba(232, 213, 213, 0.19);
+}
+.img1{
+    border-radius: 50%;
+    height: 190px;
+    width: 160px;
+    margin: 10px;
+}
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+figcaption{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+figure{
+  margin: 20px;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 4px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+    background-color: rgb(19, 19, 134);
+  }
+  
+  .fa-twitter {
+
+    color: white;
+    background-color: rgb(63, 63, 190);
+  }
+
+  .fa-linkedin {
+    color: white;
+    background-color: rgb(63, 63, 190);
+  }
+  
+
+  .fa-instagram {
+    background-color: rgb(204, 63, 63);
+    color: white;
+
+  }
+
+  
+.navigation {
+      display: flex;
+      list-style-type: none;
+      padding: 8px 16px;
+}
+.navigationWrapper{
+  padding-left: 900px;
+}
+
+.parent {
+        padding:0 25px;
+
+}
+.div2{
+  background-color:white;
+  width:auto;
+  height: 70px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0  rgba(232, 213, 213, 0.19), 0 6px 20px 0 rgba(232, 213, 213, 0.19);
+
+}
+.link{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font:bolder;
+
+}
+.div3{
+     position: absolute;
+     left: 410px;
+     align-self: center;
+     width: 75%;
+     height:0.1%;
+
+}
+
+
+
+  
+
+    
